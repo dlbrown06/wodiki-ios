@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3F11CFA213EF4A9009853C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F11CF9213EF4A9009853C8 /* AppDelegate.swift */; };
+		A3F11CFC213EF4A9009853C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F11CFB213EF4A9009853C8 /* ViewController.swift */; };
+		A3F11CFF213EF4A9009853C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F11CFD213EF4A9009853C8 /* Main.storyboard */; };
+		A3F11D02213EF4A9009853C8 /* wodiki.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A3F11D00213EF4A9009853C8 /* wodiki.xcdatamodeld */; };
+		A3F11D04213EF4AA009853C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3F11D03213EF4AA009853C8 /* Assets.xcassets */; };
+		A3F11D07213EF4AA009853C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3F11D05213EF4AA009853C8 /* LaunchScreen.storyboard */; };
+		A3F11D12213EF4AB009853C8 /* wodikiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F11D11213EF4AB009853C8 /* wodikiTests.swift */; };
+		A3F11D1D213EF4AB009853C8 /* wodikiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3F11D1C213EF4AB009853C8 /* wodikiUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3F11D0E213EF4AB009853C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F11CEE213EF4A9009853C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F11CF5213EF4A9009853C8;
+			remoteInfo = wodiki;
+		};
+		A3F11D19213EF4AB009853C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3F11CEE213EF4A9009853C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3F11CF5213EF4A9009853C8;
+			remoteInfo = wodiki;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A3F11CF6213EF4A9009853C8 /* wodiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wodiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F11CF9213EF4A9009853C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A3F11CFB213EF4A9009853C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A3F11CFE213EF4A9009853C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A3F11D01213EF4A9009853C8 /* wodiki.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = wodiki.xcdatamodel; sourceTree = "<group>"; };
+		A3F11D03213EF4AA009853C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A3F11D06213EF4AA009853C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A3F11D08213EF4AA009853C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F11D0D213EF4AB009853C8 /* wodikiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wodikiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F11D11213EF4AB009853C8 /* wodikiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wodikiTests.swift; sourceTree = "<group>"; };
+		A3F11D13213EF4AB009853C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3F11D18213EF4AB009853C8 /* wodikiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wodikiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3F11D1C213EF4AB009853C8 /* wodikiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wodikiUITests.swift; sourceTree = "<group>"; };
+		A3F11D1E213EF4AB009853C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3F11CF3213EF4A9009853C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F11D0A213EF4AB009853C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F11D15213EF4AB009853C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3F11CED213EF4A9009853C8 = {
+			isa = PBXGroup;
+			children = (
+				A3F11CF8213EF4A9009853C8 /* wodiki */,
+				A3F11D10213EF4AB009853C8 /* wodikiTests */,
+				A3F11D1B213EF4AB009853C8 /* wodikiUITests */,
+				A3F11CF7213EF4A9009853C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3F11CF7213EF4A9009853C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3F11CF6213EF4A9009853C8 /* wodiki.app */,
+				A3F11D0D213EF4AB009853C8 /* wodikiTests.xctest */,
+				A3F11D18213EF4AB009853C8 /* wodikiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3F11CF8213EF4A9009853C8 /* wodiki */ = {
+			isa = PBXGroup;
+			children = (
+				A3F11CF9213EF4A9009853C8 /* AppDelegate.swift */,
+				A3F11CFB213EF4A9009853C8 /* ViewController.swift */,
+				A3F11CFD213EF4A9009853C8 /* Main.storyboard */,
+				A3F11D03213EF4AA009853C8 /* Assets.xcassets */,
+				A3F11D05213EF4AA009853C8 /* LaunchScreen.storyboard */,
+				A3F11D08213EF4AA009853C8 /* Info.plist */,
+				A3F11D00213EF4A9009853C8 /* wodiki.xcdatamodeld */,
+			);
+			path = wodiki;
+			sourceTree = "<group>";
+		};
+		A3F11D10213EF4AB009853C8 /* wodikiTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F11D11213EF4AB009853C8 /* wodikiTests.swift */,
+				A3F11D13213EF4AB009853C8 /* Info.plist */,
+			);
+			path = wodikiTests;
+			sourceTree = "<group>";
+		};
+		A3F11D1B213EF4AB009853C8 /* wodikiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A3F11D1C213EF4AB009853C8 /* wodikiUITests.swift */,
+				A3F11D1E213EF4AB009853C8 /* Info.plist */,
+			);
+			path = wodikiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3F11CF5213EF4A9009853C8 /* wodiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F11D21213EF4AB009853C8 /* Build configuration list for PBXNativeTarget "wodiki" */;
+			buildPhases = (
+				A3F11CF2213EF4A9009853C8 /* Sources */,
+				A3F11CF3213EF4A9009853C8 /* Frameworks */,
+				A3F11CF4213EF4A9009853C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wodiki;
+			productName = wodiki;
+			productReference = A3F11CF6213EF4A9009853C8 /* wodiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3F11D0C213EF4AB009853C8 /* wodikiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F11D24213EF4AB009853C8 /* Build configuration list for PBXNativeTarget "wodikiTests" */;
+			buildPhases = (
+				A3F11D09213EF4AB009853C8 /* Sources */,
+				A3F11D0A213EF4AB009853C8 /* Frameworks */,
+				A3F11D0B213EF4AB009853C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F11D0F213EF4AB009853C8 /* PBXTargetDependency */,
+			);
+			name = wodikiTests;
+			productName = wodikiTests;
+			productReference = A3F11D0D213EF4AB009853C8 /* wodikiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A3F11D17213EF4AB009853C8 /* wodikiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3F11D27213EF4AB009853C8 /* Build configuration list for PBXNativeTarget "wodikiUITests" */;
+			buildPhases = (
+				A3F11D14213EF4AB009853C8 /* Sources */,
+				A3F11D15213EF4AB009853C8 /* Frameworks */,
+				A3F11D16213EF4AB009853C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3F11D1A213EF4AB009853C8 /* PBXTargetDependency */,
+			);
+			name = wodikiUITests;
+			productName = wodikiUITests;
+			productReference = A3F11D18213EF4AB009853C8 /* wodikiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3F11CEE213EF4A9009853C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = dougbrownioio;
+				TargetAttributes = {
+					A3F11CF5213EF4A9009853C8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					A3F11D0C213EF4AB009853C8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A3F11CF5213EF4A9009853C8;
+					};
+					A3F11D17213EF4AB009853C8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = A3F11CF5213EF4A9009853C8;
+					};
+				};
+			};
+			buildConfigurationList = A3F11CF1213EF4A9009853C8 /* Build configuration list for PBXProject "wodiki" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3F11CED213EF4A9009853C8;
+			productRefGroup = A3F11CF7213EF4A9009853C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3F11CF5213EF4A9009853C8 /* wodiki */,
+				A3F11D0C213EF4AB009853C8 /* wodikiTests */,
+				A3F11D17213EF4AB009853C8 /* wodikiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3F11CF4213EF4A9009853C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F11D07213EF4AA009853C8 /* LaunchScreen.storyboard in Resources */,
+				A3F11D04213EF4AA009853C8 /* Assets.xcassets in Resources */,
+				A3F11CFF213EF4A9009853C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F11D0B213EF4AB009853C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F11D16213EF4AB009853C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3F11CF2213EF4A9009853C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F11D02213EF4A9009853C8 /* wodiki.xcdatamodeld in Sources */,
+				A3F11CFC213EF4A9009853C8 /* ViewController.swift in Sources */,
+				A3F11CFA213EF4A9009853C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F11D09213EF4AB009853C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F11D12213EF4AB009853C8 /* wodikiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3F11D14213EF4AB009853C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3F11D1D213EF4AB009853C8 /* wodikiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3F11D0F213EF4AB009853C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F11CF5213EF4A9009853C8 /* wodiki */;
+			targetProxy = A3F11D0E213EF4AB009853C8 /* PBXContainerItemProxy */;
+		};
+		A3F11D1A213EF4AB009853C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3F11CF5213EF4A9009853C8 /* wodiki */;
+			targetProxy = A3F11D19213EF4AB009853C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3F11CFD213EF4A9009853C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F11CFE213EF4A9009853C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A3F11D05213EF4AA009853C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3F11D06213EF4AA009853C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3F11D1F213EF4AB009853C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A3F11D20213EF4AB009853C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3F11D22213EF4AB009853C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wodiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougbrownioio.wodiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3F11D23213EF4AB009853C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wodiki/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougbrownioio.wodiki;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A3F11D25213EF4AB009853C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wodikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougbrownioio.wodikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wodiki.app/wodiki";
+			};
+			name = Debug;
+		};
+		A3F11D26213EF4AB009853C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wodikiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougbrownioio.wodikiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wodiki.app/wodiki";
+			};
+			name = Release;
+		};
+		A3F11D28213EF4AB009853C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wodikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougbrownioio.wodikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wodiki;
+			};
+			name = Debug;
+		};
+		A3F11D29213EF4AB009853C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = wodikiUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dougbrownioio.wodikiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = wodiki;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3F11CF1213EF4A9009853C8 /* Build configuration list for PBXProject "wodiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F11D1F213EF4AB009853C8 /* Debug */,
+				A3F11D20213EF4AB009853C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F11D21213EF4AB009853C8 /* Build configuration list for PBXNativeTarget "wodiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F11D22213EF4AB009853C8 /* Debug */,
+				A3F11D23213EF4AB009853C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F11D24213EF4AB009853C8 /* Build configuration list for PBXNativeTarget "wodikiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F11D25213EF4AB009853C8 /* Debug */,
+				A3F11D26213EF4AB009853C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3F11D27213EF4AB009853C8 /* Build configuration list for PBXNativeTarget "wodikiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3F11D28213EF4AB009853C8 /* Debug */,
+				A3F11D29213EF4AB009853C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A3F11D00213EF4A9009853C8 /* wodiki.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A3F11D01213EF4A9009853C8 /* wodiki.xcdatamodel */,
+			);
+			currentVersion = A3F11D01213EF4A9009853C8 /* wodiki.xcdatamodel */;
+			path = wodiki.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A3F11CEE213EF4A9009853C8 /* Project object */;
+}
