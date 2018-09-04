@@ -1,0 +1,6 @@
+framework module Pods_wodiki {
+  umbrella header "Pods-wodiki-umbrella.h"
+
+  export *
+  module * { export * }
+}

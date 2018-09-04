@@ -1,0 +1,6 @@
+framework module Pods_wodikiUITests {
+  umbrella header "Pods-wodikiUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
