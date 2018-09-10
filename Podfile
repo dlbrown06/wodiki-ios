@@ -9,6 +9,7 @@ target 'wodiki' do
 
   pod 'Firebase/Core'
   pod 'FirebaseUI/Auth'
+  pod 'Firebase/Database'
 
   target 'wodikiTests' do
     inherit! :search_paths

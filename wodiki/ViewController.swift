@@ -8,12 +8,39 @@
 
 import UIKit
 import FirebaseUI
+import Firebase
+import FirebaseDatabase
 
 class ViewController: UIViewController {
-
+    
+    var refMovements: DatabaseReference!
+    
+    @IBOutlet weak var AddMovementTextField: UITextField!
+    @IBOutlet weak var tableMovements: UITableView!
+    
+    @IBAction func buttonAddMovement(_ sender: UIButton) {
+        addMovement()
+    }
+    
+    func addMovement() {
+        let key = refMovements.childByAutoId().key
+        let userId = Auth.auth().currentUser!.uid
+        print(userId)
+        let movement = [
+            "id": key,
+            "name": AddMovementTextField.text! as String
+        ];
+        
+        refMovements.child(key).child(userId).setValue(movement)
+        
+        print("Movement Added")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        refMovements = Database.database().reference().child("movements")
     }
 
     override func didReceiveMemoryWarning() {
